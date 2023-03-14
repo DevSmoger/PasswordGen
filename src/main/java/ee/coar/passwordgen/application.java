@@ -156,7 +156,7 @@ public class application {
         // Create character sets with all required characters
         String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         String numbers = "0123456789";
-        String symbols = "!@#$%^&*()_+-=";
+        String symbols = "^~!@#$%^&*()_+\\-={}\\[\\]|;:'\"<>,./?";
 
         // Calculate maximum number of numbers and symbols that can be generated
         int maxNumbers = Math.min(numNumbers, length);
